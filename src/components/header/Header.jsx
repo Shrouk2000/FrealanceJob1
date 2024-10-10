@@ -1,26 +1,23 @@
-import portfolioImage from '../../images/image.jpg';
+import React from 'react';
+import './Header.css'; 
+import profileImage from '../../images/image.jpg';
 
-export default function HeroSection() {
+const Header = () => {
     return (
-        <section id="heroSection" className="hero--section">
-            <div className="hero--section--content--box">
-                <div className="hero--section--content">
-                    <p className="section--title">Hey, I'm John</p>
-                    <h1 className="hero--section--title">
-                        <span className="hero--section-title--color">Full Stack</span>{" "}
-                        <br />
-                        Developer
-                    </h1>
-                    <p className="hero--section-description">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        <br /> Dolorum, quas. Amet soluta assumenda cum?
-                    </p>
-                </div>
-                <button className="btn btn-primary">Get In Touch</button>
+        <header className="cv-header">
+            <div className="header-info">
+                <h1 className="name">Adel Omar Mahmoud</h1>
+                <h2 className="title">Chief Surveyor</h2>
+                <p className="location">Sixth of October, Giza, Egypt</p>
+                <p className="contact-info">
+                    <span>+20-1097550665</span> | 
+                    <span>adelomar1001@gmail.com</span> | 
+                    <a href="https://linkedin.com/in/adel-omar1" target="_blank" rel="noopener noreferrer">linkedin.com/in/adel-omar1</a>
+                </p>
             </div>
-            <div className="hero--section--img">
-                <img src={portfolioImage} alt="Hero Section" />
-            </div>
-        </section>
+            <img src={profileImage} alt="Adel Omar Mahmoud" className="profile-image" />
+        </header>
     );
-}
+};
+
+export default Header;
