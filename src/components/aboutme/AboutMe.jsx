@@ -18,14 +18,7 @@ const AboutMe = () => {
                     In addition to my technical skills, I am passionate about training and mentoring students in surveying techniques and practices. I believe in the importance of continuous learning and professional development in the field of surveying.
                 </p>
             </div>
-            {/* <h3>Skills</h3>
-            <ul>
-                <li>GIS and Geomatics</li>
-                <li>Land Surveying</li>
-                <li>Data Analysis</li>
-                <li>AutoCAD and Civil 3D</li>
-                <li>Project Management</li>
-            </ul> */}
+        
         </section>
     );
 };
