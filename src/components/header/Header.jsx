@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css'; 
 import profileImage from '../../images/image.jpg';
+import cvFile from '../../staticfiles/cv.pdf';
 
 const Header = () => {
     return (
@@ -14,6 +15,7 @@ const Header = () => {
                     <span>adelomar1001@gmail.com</span> | 
                     <a href="https://linkedin.com/in/adel-omar1" target="_blank" rel="noopener noreferrer">linkedin.com/in/adel-omar1</a>
                 </p>
+                <a href={cvFile} download className="download-button">Download CV</a> 
             </div>
             <img src={profileImage} alt="Adel Omar Mahmoud" className="profile-image" />
         </header>

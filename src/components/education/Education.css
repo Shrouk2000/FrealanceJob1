@@ -1,0 +1,44 @@
+/* Education.css */
+
+.education-section {
+    max-width: 1200px; /* Max width for the education section */
+    margin: 40px auto; /* Center the section */
+    padding: 20px; /* Padding for the section */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+}
+
+.education-grid {
+    display: flex; /* Use Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Space between cards */
+}
+
+.education-card {
+    flex: 1 1 calc(45% - 20px); /* Responsive card sizing */
+    background-color: #f9f9f9; /* Light grey background for cards */
+    border-radius: 8px; /* Rounded corners for cards */
+    padding: 15px; /* Padding inside cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.education-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.education-card h4 {
+    font-size: 20px; /* Font size for degree titles */
+    color: #333; /* Dark color for text */
+}
+
+.education-card .institution {
+    font-size: 16px; /* Font size for institution */
+    color: #555; /* Darker color for institution */
+}
+
+.education-card .duration {
+    font-size: 14px; /* Font size for duration */
+    color: #777; /* Lighter color for duration */
+}
