@@ -26,11 +26,13 @@ const Education = () => {
     ];
 
     return (
-        <section className="education-section">
+        <section className="education-section" id="education">
+            
             <h3>Education</h3>
+
             <div className="education-grid">
                 {educationItems.map((item, index) => (
-                    <div key={index} className="education-card">
+                    <div key={index} className="education-card ">
                         <h4>{item.degree}</h4>
                         <p className="institution">{item.institution}</p>
                         <p className="duration">{item.duration}</p>

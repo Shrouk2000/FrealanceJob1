@@ -1,5 +1,5 @@
 import React from "react";
-import './Skills.css'; // Make sure to create this CSS file
+import './Skills.css'; 
 
 function Skills() {
     const skills = [
@@ -11,14 +11,12 @@ function Skills() {
     ];
 
     return (
-        <div className="skills-container">
-            <div className="skill-title">
+        <div className="skills-container" id="skills">
+            
             <h3>Skills</h3>
-
-            </div>
             <div className="skills-cards">
                 {skills.map((skill, index) => (
-                    <div key={index} className="skill-card">
+                    <div key={index} className="skill-card ">
                         <h4>{skill}</h4>
                     </div>
                 ))}

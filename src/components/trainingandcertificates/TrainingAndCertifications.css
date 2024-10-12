@@ -1,5 +1,5 @@
 .training-section {
-    max-width: 1200px; 
+    /* max-width: 1000px;  */
     margin: 40px auto;
     padding: 20px; 
     background-color: #ffffff; 
@@ -11,6 +11,8 @@
     display: flex; 
     flex-wrap: wrap; 
     gap: 20px; 
+    width: 1000px;
+    margin: auto;
 }
 
 .training-card {

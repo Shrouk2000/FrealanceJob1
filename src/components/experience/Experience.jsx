@@ -1,5 +1,5 @@
 import React from "react";
-import './Experience.css'; // Make sure to create this CSS file
+import './Experience.css';
 
 const Experience = () => {
     const experiences = [
@@ -50,7 +50,7 @@ const Experience = () => {
             <h3>Experience</h3>
             <div className="experience-grid">
                 {experiences.map((exp, index) => (
-                    <div key={index} className="experience-card">
+                    <div key={index} className="experience-card ">
                         <h4>{exp.title}</h4>
                         <p className="company">{exp.company} - {exp.location}</p>
                         <p className="date">{exp.date}</p>

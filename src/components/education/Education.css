@@ -1,44 +1,48 @@
-/* Education.css */
-
 .education-section {
-    max-width: 1200px; /* Max width for the education section */
-    margin: 40px auto; /* Center the section */
-    padding: 20px; /* Padding for the section */
-    background-color: #ffffff; /* White background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+    margin: 40px auto;
+    padding: 20px; 
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
 
+ h3{
+font-size: 30px;
+text-align: center;
+}
 .education-grid {
-    display: flex; /* Use Flexbox for layout */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
-    gap: 20px; /* Space between cards */
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    width: 1000px;
+margin: auto;
 }
 
 .education-card {
-    flex: 1 1 calc(45% - 20px); /* Responsive card sizing */
-    background-color: #f9f9f9; /* Light grey background for cards */
-    border-radius: 8px; /* Rounded corners for cards */
-    padding: 15px; /* Padding inside cards */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: transform 0.2s; /* Smooth transition for hover effect */
+    flex: 1 1 calc(45% - 20px); 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    padding: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s; 
+
 }
 
 .education-card:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
+    transform: translateY(-5px); 
 }
 
 .education-card h4 {
-    font-size: 20px; /* Font size for degree titles */
-    color: #333; /* Dark color for text */
+    font-size: 20px; 
+    color: #333; 
 }
 
 .education-card .institution {
-    font-size: 16px; /* Font size for institution */
-    color: #555; /* Darker color for institution */
+    font-size: 16px; 
+    color: #555; 
 }
 
 .education-card .duration {
-    font-size: 14px; /* Font size for duration */
-    color: #777; /* Lighter color for duration */
+    font-size: 14px; 
+    color: #777;
 }

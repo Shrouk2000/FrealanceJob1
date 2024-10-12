@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import './Footer.css'; 
+import { FaLinkedin, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
+import './Footer.css'; // Don't forget to create this CSS file
 
 const Footer = () => {
   return (
@@ -11,6 +11,9 @@ const Footer = () => {
         </a>
         <a href="https://wa.me/201097550665" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="icon" />
+        </a>
+        <a href="mailto:adelomar1001@gmail.com" target="_blank" rel="noopener noreferrer">
+          <FaEnvelope className="icon" />
         </a>
       </div>
       <p className="footer-text">© 2024 Adel Omar Mahmoud</p>

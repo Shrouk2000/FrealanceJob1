@@ -34,7 +34,7 @@ const TrainingAndCertifications = () => {
             <h3>Training and Certifications</h3>
             <div className="training-grid">
                 {trainings.map((training, index) => (
-                    <div key={index} className="training-card">
+                    <div key={index} className="training-card ">
                         <h4>{training.title}</h4>
                         <ul>
                             {training.details.map((detail, i) => (
