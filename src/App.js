@@ -6,6 +6,7 @@ import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
 import TrainingAndCertifications from "./components/trainingandcertificates/TrainingAndCertifications";
 import Education from "./components/education/Education";
+import Footer from "./components/footer/Footer";
 function App(){
   return (
     <>
@@ -16,6 +17,7 @@ function App(){
         <Experience/>
         <TrainingAndCertifications/>
         <Education/>
+        <Footer/>
     </>
 
   );
