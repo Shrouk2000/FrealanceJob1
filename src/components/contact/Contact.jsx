@@ -15,9 +15,9 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here you would typically handle form submission, e.g., sending data to an API
+
         console.log('Form submitted:', formData);
-        // Reset form
+    
         setFormData({ name: '', email: '', message: '' });
     };
 

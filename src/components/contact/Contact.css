@@ -37,11 +37,11 @@ input, textarea {
 
 textarea {
     resize: none;
-    height: 100px; /* Adjust height as needed */
+    height: 100px;
 }
 
 .submit-button {
-    background-color: #007bff;
+    background-color: DarkCyan;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -50,7 +50,8 @@ textarea {
 }
 
 .submit-button:hover {
-    background-color: #0056b3;
+  background-color:rgb(95, 128, 128);
+    
 }
 
 /* Responsive design */
